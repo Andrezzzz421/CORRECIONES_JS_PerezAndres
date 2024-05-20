@@ -1,0 +1,42 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="shortcut icon" href="./storage/kkkkk.png">
+        <title>caltas</title>
+    </head>
+    <body>
+        <h1>Juego de Cartas</h1>
+        <main>
+            <div class="carta">
+                <img src="./storage/voltea.png" class="imagencarta">
+                <form class="form">
+                    <input type="search" class="inc" placeholder="number or letter" required>
+                    <input type="search" class="inc2" placeholder="type" required>
+                </form>
+            </div>
+            <div class="botones">
+                <button class="buttonSI">Si</button>
+                <button class="buttonNO">No</button>
+                <button id="btnObtenerCarta" class="buttonObtener">Obtener Carta</button>
+            </div>
+            <div class="cosita">
+                <p class="alert"></p>
+            </div>
+            <button id="btnMostrarReglas" class="reglas">Reglas</button>
+            <div id="reglasJuego" class="reglas-container">
+                <h2>Reglas del Juego</h2>
+                <p>El juego consta de dos recuadros donde tendras que poner un numero o letra de la carta y el tipo
+                    y cuando ya hayas elejido tu carta luego le das al boton de obtener de carta y la maquina te 
+                    dara una carta aleatoria y si la carta que te dio no es tu carta le daras al boton NO y la maquina
+                    te dara otra carta y asi sucesivamente hasta que te de tu carta luego de que obtuvieras tu carta le das
+                    al boton de SI y el juego terminara
+                </p>
+                <p>¡Diviértete jugando!</p>
+            </div>
+        </main>
+        <script src="./module/script.js"></script>
+    </body>
+    </html>

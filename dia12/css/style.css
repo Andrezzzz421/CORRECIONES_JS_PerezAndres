@@ -1,0 +1,134 @@
+body {
+    background-image: url('https://st2.depositphotos.com/19270688/48245/v/600/depositphotos_482455298-stock-video-dark-blue-background-with-loopable.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.form {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    gap: 2%;
+    left: 38.5%;
+}
+
+.inc,.inc2 {
+    width: 200px;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    outline: none; 
+}
+
+.inc::placeholder {
+    color: #999;
+}
+
+.botones {
+    position: absolute;
+    top: 68%;
+    left: 78.5%;
+    width: 65%;
+    transform: translate(-57%, 0);
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    height: 5vh;
+    width: 5vw;
+    border-radius: 5px;
+    font-weight: 50;
+    color: white;
+    background-color: #0404CC;
+    box-shadow: -2px 3px 0 #04049B, -4px 6px 0 #04047D;
+}
+
+button:active {
+    box-shadow: inset -4px 4px 0 #0404A5;
+    font-size: 0.9rem;
+}
+
+.buttonSI{
+    position: absolute;
+
+    left:3%;
+}
+.buttonNO {
+    position: absolute;
+
+    left: 15%;
+}
+
+.buttonObtener{
+    position: absolute;
+    top: 73%;
+    left: 9%;
+}
+
+.cosita{
+    position: absolute;
+    top: 60%;
+    left: 45%;
+}
+
+.alert{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cosita2{
+    position: absolute;
+    top: 20%;
+    left: 3%;
+}
+
+.reglas{
+    position: absolute;
+    top: 10%;
+    left:15%;
+}
+
+.reglas-container {
+    display: none; /* Por defecto, ocultar el contenedor */
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 220px;
+    text-align: left;
+    font-size: 14px;
+    z-index: 999;
+}
+
+.reglas-container h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.reglas-container p {
+    color: #ff0000;
+    margin-bottom: 5px;
+}
